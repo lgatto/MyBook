@@ -1,0 +1,17 @@
+book:
+  title: "MyBook"
+  chapters:
+    - index.qmd
+  cover-image: assets/cover.png
+  favicon: assets/favicon.png
+  sidebar: 
+    tools:
+      - icon: git
+        menu:
+          - text: Source Code
+            url:  https://github.com/lgatto/MyBook/
+          - text: Browse version `devel`
+            url:  https://lgatto.github.io/MyBook/devel/
+    style: "docked"
+    background: "light"
+    collapse-level: 5
